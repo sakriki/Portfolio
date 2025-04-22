@@ -28,8 +28,6 @@ export const siteConfig: Metadata = {
   authors: {
     name: "Saksham Jaiswal",
     url: "https://github.com/sakriki",
-    github: "https://github.com/sakriki",
-    youtube: "https://youtube.com/@techrikiyt",
     
   },
 } as const;
