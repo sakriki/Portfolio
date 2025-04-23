@@ -10,51 +10,51 @@ import {
 export const SKILL_DATA = [
   {
     skill_name: "HTML",
-    image: "html.png",
+    image: "html.webp",
     width: 80,
     height: 80,
   },
   {
     skill_name: "CSS",
-    image: "css.png",
+    image: "css.webp",
     width: 80,
     height: 80,
   },
   {
     skill_name: "JavaScript",
-    image: "js.png",
+    image: "js.webp",
     width: 65,
     height: 65,
   },
   {
     skill_name: "Tailwind CSS",
-    image: "tailwind.png",
+    image: "tailwind.webp",
     width: 80,
     height: 80,
   },
   {
     skill_name: "React",
-    image: "react.png",
+    image: "react.webp",
     width: 80,
     height: 80,
   },
 
   {
     skill_name: "TypeScript",
-    image: "ts.png",
+    image: "ts.webp",
     width: 80,
     height: 80,
   },
   {
     skill_name: "Next.js 14",
-    image: "next.png",
+    image: "next.webp",
     width: 80,
     height: 80,
   },
 
   {
     skill_name: "Node.js",
-    image: "node.png",
+    image: "node.webp",
     width: 80,
     height: 80,
   },
@@ -200,7 +200,7 @@ export const FOOTER_DATA = [
       {
         name: "Discord",
         icon: RxDiscordLogo,
-        link: "https://discord.com",
+        link: "https://discord.com/channels/@rikidagod",
       },
     ],
   },
@@ -210,7 +210,7 @@ export const FOOTER_DATA = [
       {
         name: "Instagram",
         icon: RxInstagramLogo,
-        link: "https://instagram.com",
+        link: "https://instagram.com/techrikiyt",
       },
       {
         name: "Twitter",
@@ -220,7 +220,7 @@ export const FOOTER_DATA = [
       {
         name: "Linkedin",
         icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
+        link: "https://linkedin.com/in/saksham-jaiswal-15bb3b312/",
       },
     ],
   },
@@ -230,12 +230,12 @@ export const FOOTER_DATA = [
       {
         name: "Become Sponsor",
         icon: null,
-        link: "https://youtube.com/techrikiyt",
+        link: "https://linkedin.com/in/saksham-jaiswal-15bb3b312/",
       },
       {
         name: "Learning about me",
         icon: null,
-        link: "https://example.com",
+        link: "https://youtube.com/techrikiyt",
       },
       {
         name: "Contact Me",
