@@ -70,13 +70,13 @@ export const SOCIALS = [
   {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    link: "https://instagram.com/techrikiyt",
   },
 
   {
     name: "Facebook",
     icon: FaFacebook,
-    link: "https://facebook.com",
+    link: "https://facebook.com/saksham.jaiswal.1884/",
   },
 
 ] as const;
@@ -230,7 +230,7 @@ export const FOOTER_DATA = [
       {
         name: "Become Sponsor",
         icon: null,
-        link: "https://linkedin.com/in/saksham-jaiswal-15bb3b312/",
+        link: "https://instagram.com/techrikiyt",
       },
       {
         name: "Learning about me",
