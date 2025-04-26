@@ -77,46 +77,50 @@ export const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
-      {isMobileMenuOpen && (
-        <div className="absolute top-[65px] left-0 w-full bg-[#030014] p-5 flex flex-col items-center text-gray-300 md:hidden">
-          {/* Links */}
-          <div className="flex flex-col items-center gap-4">
-            {NAV_LINKS.map((link) => (
-              <Link
-                key={link.title}
-                href={link.link}
-                className="cursor-pointer hover:text-[rgb(112,66,248)] transition text-center"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                {link.title}
-              </Link>
-            ))}
+      <div 
+        className={`absolute top-[65px] left-0 w-full bg-[#030014] p-5 flex flex-col items-center text-gray-300 md:hidden transition-all duration-300 ease-in-out ${
+          isMobileMenuOpen 
+            ? 'opacity-100 transform translate-y-0' 
+            : 'opacity-0 transform -translate-y-full pointer-events-none'
+        }`}
+      >
+        {/* Links */}
+        <div className="flex flex-col items-center gap-4">
+          {NAV_LINKS.map((link) => (
             <Link
-              href={LINKS.sourceCode}
-              target="_blank"
-              rel="noreferrer noopener"
+              key={link.title}
+              href={link.link}
               className="cursor-pointer hover:text-[rgb(112,66,248)] transition text-center"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Youtube
+              {link.title}
             </Link>
-          </div>
-
-          {/* Social Icons */}
-          <div className="flex justify-center gap-6 mt-6">
-            {SOCIALS.map(({ link, name, icon: Icon }) => (
-              <Link
-                href={link}
-                target="_blank"
-                rel="noreferrer noopener"
-                key={name}
-              >
-                <Icon className="h-8 w-8 text-white" />
-              </Link>
-            ))}
-          </div>
+          ))}
+          <Link
+            href={LINKS.sourceCode}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="cursor-pointer hover:text-[rgb(112,66,248)] transition text-center"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            Youtube
+          </Link>
         </div>
-      )}
+
+        {/* Social Icons */}
+        <div className="flex justify-center gap-6 mt-6">
+          {SOCIALS.map(({ link, name, icon: Icon }) => (
+            <Link
+              href={link}
+              target="_blank"
+              rel="noreferrer noopener"
+              key={name}
+            >
+              <Icon className="h-8 w-8 text-white" />
+            </Link>
+          ))}
+        </div>
+      </div>
     </div>
   );
 };
