@@ -24,7 +24,12 @@ export default function RootLayout({ children }: PropsWithChildren) {
       <head>
         {/* Google AdSense Meta Tag */}
         <meta name="google-adsense-account" content="ca-pub-9719198394780450" />
+
+
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9719198394780450"
+     crossorigin="anonymous"></script>
       </head>
+      
       <body
         className={cn(
           "bg-[#030014] overflow-y-scroll overflow-x-hidden",
