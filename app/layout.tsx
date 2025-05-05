@@ -26,8 +26,9 @@ export default function RootLayout({ children }: PropsWithChildren) {
         <meta name="google-adsense-account" content="ca-pub-9719198394780450" />
 
 
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9719198394780450"
-     crossorigin="anonymous"></script>
+        
+
+        <script async src=" https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9719198394780450 " crossorigin="anonymous" />
       </head>
       
       <body
